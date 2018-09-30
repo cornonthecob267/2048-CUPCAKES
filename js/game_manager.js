@@ -16,22 +16,20 @@ function GameManager(size, InputManager, Actuator, StorageManager) {
 
 
 // Set Prices
-function kcal(exp) {
-  var kcal = [];
-  kcal[2]=200;
-  kcal[4]=250;
-  kcal[8]=320;
-  kcal[16]=400;
-  kcal[32]=500;
-  kcal[64]=650;
-  kcal[128]=820;
-  kcal[256]=1000;
-  kcal[512]=1200;
-  kcal[1024]=1500;
-  kcal[2048]=2000;
-  kcal[4096]=3000;
-  kcal[8192]=5000;
-  return kcal[exp];
+function fashionpoints(exp) {
+  var fashionpoints = [];
+  fashionpoints[2]=2;
+  fashionpoints[4]=4;
+  fashionpoints[8]=8;
+  fashionpoints[16]=16;
+  fashionpoints[32]=32;
+  fashionpoints[64]=64;
+  fashionpoints[128]=128;
+  fashionpoints[256]=256;
+  fashionpoints[512]=512;
+  fashionpoints[1024]=1024;
+  fashionpoints[2048]=2048;
+  return fashionpoints[exp];
 }
 
 // Restart the game
